@@ -1,0 +1,26 @@
+<!-- Faça um programa que identifica se um número é par ou ímpar-->
+<html>
+ <body>
+        <script type="text/javascript">
+            function calcularPar(){
+            var n = document.getElementById("num").value;
+            if(n%2==0){ 
+                document.getElementById("res").value="PAR";
+            }else{ 
+                document.getElementById("res").value="IMPAR";
+             }
+   
+        }  
+        </script>
+        <fieldset>
+            <legend>NÚMERO PAR</legend>
+            <label>Número:</label><br>
+            <input id="num" type="text"/>
+            <button onclick="calcularPar()">Verificar</button>
+            <br>
+            <label>Resultado</label><br>
+            <input id="res" type="text"/><br>
+            
+        </fieldset>
+    </body>
+</html>

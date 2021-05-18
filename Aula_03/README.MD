@@ -1,0 +1,1 @@
+Faltei a aula por conta de uma queda de energia.

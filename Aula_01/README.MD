@@ -1,0 +1,1 @@
+Não teve conteúdo prático este dia.

@@ -1,0 +1,27 @@
+<html>
+ <body>
+        <script type="text/javascript">
+            function calcularPeriodo(){
+            var h = document.getElementById("hs").value;
+            if(h<12){ 
+                document.getElementById("res").value="BOM DIA";
+            }else if(h<18){ 
+                document.getElementById("res").value="BOA TARDE";
+             }else{
+                document.getElementById("res").value="BOA NOITE"; 
+             }
+   
+        }  
+        </script>
+        <fieldset>
+            <legend>SAUDAÇÃO</legend>
+            <label>Horas:</label><br>
+            <input id="hs" type="text"/>
+            <button onclick="calcularPeriodo()">Verificar</button>
+            <br>
+            <label>Resultado</label><br>
+            <input id="res" type="text"/><br>
+            
+        </fieldset>
+    </body>
+</html>
